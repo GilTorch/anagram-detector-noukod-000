@@ -37,6 +37,6 @@ class Anagram
         array_of_matches.push(word)
       end
     end
-    return []
+    return array_of_matches
   end
 end
