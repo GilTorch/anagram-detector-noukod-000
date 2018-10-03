@@ -33,7 +33,7 @@ class Anagram
       if(letters_of_anagram!=letters_of_word)
         next
       else
-        return [word.join("")]
+        return [word]
       end
     end
     return []
