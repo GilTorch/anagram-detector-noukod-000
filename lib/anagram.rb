@@ -11,7 +11,7 @@ class Anagram
     arr.each do |word|
       letters_of_anagram=@word.split("").sort
       letters_of_word=word.split("").sort
-      if(!letters_of_anagram==letters_of_word)
+      if(letters_of_anagram!=letters_of_word)
         []
       end
     end
