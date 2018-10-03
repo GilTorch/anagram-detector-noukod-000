@@ -32,7 +32,7 @@ class Anagram
       letters_of_word=word.split("").sort
       if(letters_of_anagram!=letters_of_word)
         next
-      else 
+      else
         return [word.join("")]
       end
     end
